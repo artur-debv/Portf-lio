@@ -1,0 +1,67 @@
+.container-15 {
+    height: 597px;
+    background-color: hsl(var(--hue-color), 10%, 8%);
+}
+
+
+.h2-contato {
+    color: white;
+    text-align: center;
+    padding-top: 54px;
+    margin-bottom: 55px;
+}
+
+.input1 {
+    display: flex;
+    height: 50px;
+    width: 621px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: var(--input-color);
+    border: none;
+    color: white;
+}
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 612px;
+    height: 161px;
+    margin-left: 1px;
+    background-color: var(--input-color);
+    border: none;
+    margin-bottom: 20px;
+    resize: none;
+    padding-top: 13px;
+    padding-left: 6px;
+}
+
+
+.btn-2 {
+    background-color: black;
+    color: white;
+    width: 186px;
+    height: 48px;
+    border-radius: 10px;
+    margin-left: -423px;
+    cursor:pointer;
+}
+
+.input1::placeholder{
+    color: white;
+}
+
+
+textarea::placeholder{
+    color: white;
+}
+
+textarea {
+    color: white;
+}
