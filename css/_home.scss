@@ -1,0 +1,195 @@
+.container-2 {
+    color: white;
+    margin-top: -5px;
+    margin-left: -17px;
+    height: 800px;
+    margin: auto;
+    background-color: hsl(var(--hue-color), 10%, 8%);
+}
+
+.button {
+    text-align: center;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    padding: 8px 8px;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.bxl-linkedin {
+    padding-top: 5px;
+    margin-left: -22px;
+    margin-top: -2px;
+}
+
+.bxl-github {
+    padding-top: 5px;
+    margin-left: 7px;
+}
+
+
+@keyframes typing{
+    from{
+    width: 0;
+    }
+    to{
+        width: 11em;
+    }
+}
+
+
+@keyframes blinkcursor{
+    from{
+        border-right-color:rgba(255,255,255,.75);
+        width: 20px;
+    }
+    to{
+        border-right-color:transparent;
+    }
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 256px;
+    margin-right: 230px;
+    padding-left: 65px;
+}
+
+.h2-22 {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 60px;
+    padding-top: 24px;
+    margin-bottom: 4px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: -138px;
+}
+
+.h2-22-2 {
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 60px;
+    color: cyan;
+    margin-top: -21px;
+    margin-left: 116px;
+    margin-bottom: 17px;
+}
+
+
+.item9 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    transition: .2s;
+}
+
+
+   /*animaçao keyframes*/
+   .img-responsive{
+    animation: flutuaçao 10s ease-in-out infinite;
+}
+
+@keyframes flutuaçao {
+    0%,100%{
+        transform: translatey(0px);
+    }
+    40%{
+        transform: translateY(-20px);
+    }
+}
+
+
+
+.botoes-9 {
+    justify-content: space-between;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    width: 135px;
+    margin-left: 110px;
+    font-family: 'Sora', sans-serif;
+    margin-top: 20px;
+}
+
+.botoes-10 {
+    justify-content: space-between;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    width: 135px;
+    margin-left: 26px;
+    font-family: 'Sora', sans-serif;
+    margin-top: 20px;
+}
+
+aside {
+    margin-top: -13px;
+    margin-left: -62px;
+}
+.type-animation{
+    animation:blinkcursor 500ms infinite normal,typing 4s steps(40) 1s normal both;
+    height: 50px;
+}
+.h2-22-2-2 {
+    border-right: 1px solid rgba(255,255,255,0.75);
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 60px;
+    color: red;
+    color: var(--title-color);
+    margin-top: -21px;
+    margin-left: 113px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+.buttons {
+    display: flex;
+    margin-left: -5px;
+    margin-top: -14px;
+}
+
+
+.bxl-linkedin:before {
+    margin-left: 28px;
+    font-size: 22px;
+}
+
+
+.bxl-github:before {
+    content: "\e93a";
+    font-size: 22px;
+}
+
+
+.img-responsive {
+    animation: flutuaçao 10s ease-in-out infinite;
+}
+
+.img-responsive {
+    height: 358px;
+    margin-top: -41px;
+    margin-top: -41px;
+    margin-left: 17px;
+}
+
